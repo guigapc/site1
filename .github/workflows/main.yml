@@ -33,5 +33,6 @@ jobs:
           context: ./files
           push: true
           tags: |
-            guigapc/site1:latest
             guigapc/site1:${{github.run_number}}
+            guigapc/site1:latest
+            
